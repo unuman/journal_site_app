@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <h1>新規論文投稿</h1>
     <form action="{{ route('articles.store') }}" method="post">
         @csrf
         <p>
